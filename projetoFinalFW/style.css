@@ -1,0 +1,62 @@
+/* Fonte estilo 8-bit/Mario */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background: #000; /* fundo preto */
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container central */
+.container {
+    text-align: center;
+    background: linear-gradient(135deg, #ff0048, #ffdd00);
+    padding: 40px 60px;
+    border: 5px solid #00ff9f;
+    box-shadow: 0 0 20px #00ff9f, 0 0 40px #00ff9f inset;
+    border-radius: 12px;
+}
+
+/* Título */
+.container h1 {
+    color: #00ffea;
+    text-shadow: 2px 2px #ff0048, 0 0 10px #00ffea;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* Parágrafo */
+.container p {
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+    color: #ffdd00;
+    text-shadow: 1px 1px #ff0048;
+}
+
+/* Botões */
+.container a button {
+    font-family: 'Press Start 2P', cursive;
+    background: #ff0048;
+    color: #fff;
+    border: 3px solid #00ff9f;
+    padding: 15px 25px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    transition: all 0.2s;
+    text-transform: uppercase;
+}
+
+.container a button:hover {
+    background: #00ff9f;
+    color: #000;
+    box-shadow: 0 0 10px #00ff9f, 0 0 20px #00ff9f inset;
+    transform: scale(1.1);
+}
